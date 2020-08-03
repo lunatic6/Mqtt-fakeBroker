@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>Mqtt-fakeBroker</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.eclipse.paho</groupId>
+            <artifactId>org.eclipse.paho.client.mqttv3</artifactId>
+            <version>1.2.5</version>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.8.6</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.envisioniot.enos</groupId>
+            <artifactId>mqtt-proxy-framework</artifactId>
+            <version>0.1.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.envisioniot.enos</groupId>
+            <artifactId>mqtt-proxy-framework-addon-config</artifactId>
+            <version>0.1.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.envisioniot.enos</groupId>
+            <artifactId>mqtt-proxy-framework-addon-device-registry-memory</artifactId>
+            <version>0.1.1-SNAPSHOT</version>
+        </dependency>
+
+        <!-- import this package for deploy this project via ECP -->
+        <dependency>
+            <groupId>com.envisioniot.enos</groupId>
+            <artifactId>enos-commons</artifactId>
+            <version>0.2.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.envisioniot</groupId>
+            <artifactId>enos-dm-api-pojo</artifactId>
+            <version>0.2.13-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.envisioniot.gssc</groupId>
+            <artifactId>gssc-common</artifactId>
+            <version>1.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.envisioniot</groupId>
+            <artifactId>enos-http-integration</artifactId>
+            <version>0.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.envisioniot</groupId>
+            <artifactId>enos-core</artifactId>
+            <version>0.1.3</version>
+        </dependency>
+    </dependencies>
+</project>

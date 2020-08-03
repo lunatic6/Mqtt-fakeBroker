@@ -1,0 +1,9 @@
+bvcd/camera/event/obj_in_field
+bvcd/camera/event/loitering
+bvcd/camera/event/remove_obj
+bvcd/camera/event/leave_field
+bvcd/camera/event/crowd_detection
+bvcd/camera/event/occupancy
+bvcd/camera/event/counter
+bvcd/camera/event/smokealarm
+bvcd/camera/status/192.168.1.22
